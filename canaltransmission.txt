@@ -1,0 +1,23 @@
+canal transmission : voie de communication pour transiter le message de la source vers la cible 
+deux types existent : canal de communication discret ou continu 
+****canal de communication discret : canal binaire ( ne transmet que des bits) 
+****canal de communication continu ????
+
+la chaine de transmission d'informations : 
+		transduction du message à l'emetteur : conversion d'une grandeur physique en une autre 
+		Encodage du message 
+		Emission du message
+		Réception
+		Décodage
+		Transduction 
+		
+problemes de transmission : on ne parle pas de la securité ici
+	perte d information 
+		repeter le renvoi de l'information (protocole TCP)
+	alteration d information 
+		bit de parieté : ajouter un bit a un pour savoir si perte de bit ou pas : truc le plus simple
+		fonction de hachage CRC MDS SHA cout assez elevé 
+	==> utiliser code correcteur 
+	rupture de canal : on ne peut rien faire 
+
+
