@@ -1,0 +1,4 @@
+Q0
+C = tG*M
+tG = C*M' avec M' est la matrice inverse de M
+G = t(tG)
